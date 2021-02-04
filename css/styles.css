@@ -1,17 +1,43 @@
 /* Element-Selector */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+  padding-bottom: 40px;
 }
 
 /* ID-Selector */
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 /* Class-Selector */
 .container-fluid {
   padding: 3% 15%;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-left: -20px;
+}
+
+.img-rotate {
+  transform: rotate(30deg);
+  /* Equal to rotateZ(45deg) */
+}
+
+.img-size {
+  height: 80%;
+  width: auto;
+}
+
+.row {
+  margin-top: 60px;
 }
