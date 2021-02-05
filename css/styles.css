@@ -1,6 +1,7 @@
 /* Element-Selector */
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -8,6 +9,10 @@ h1 {
   font-weight: 900;
   line-height: 1.5;
   padding-bottom: 40px;
+}
+
+html{
+  overflow-x: hidden;
 }
 
 /* ID-Selector */
@@ -23,9 +28,9 @@ h1 {
 
 .row {
   margin-top: 60px;
-  /* NAV-BAR */
 }
 
+  /* NAV-BAR */
 .navbar {
   padding: 0 0 4.5rem;
 }
