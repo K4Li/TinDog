@@ -1,36 +1,24 @@
-/* Element-Selector */
 body {
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
 }
 
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-  padding-bottom: 40px;
-}
-
-html{
-  overflow-x: hidden;
-}
-
-/* ID-Selector */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-/* Class-Selector */
 .container-fluid {
   padding: 3% 15%;
 }
 
-.row {
-  margin-top: 60px;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
-  /* NAV-BAR */
+/* Navigation-Bar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -39,7 +27,6 @@ html{
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  /* margin-left: -20px; */
 }
 
 .nav-item {
@@ -54,11 +41,37 @@ html{
 
 /* Download-Button */
 .download-button {
-  margin: 5% 3% 5% 0;
+margin: 5% 3% 5% 0;
 }
 
 /* Title-Image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features */
+.feature-icon {
+  color: #ef8172;
+  display: block;
+  font-size: 200%;
+  margin: 0 auto;
+  padding-top: 6.25rem;
+  padding-right: auto;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feature-p-text {
+  color: #8f8f8f;
+ text-align: center;
 }
