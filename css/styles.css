@@ -14,7 +14,7 @@ p {
 
 /* Containers */
 .container-fluid {
-  padding: 7% 10%;
+  padding: 7% 15%;
 }
 
 /* Sections */
@@ -29,7 +29,7 @@ p {
 
 /* Headings */
 .big-heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -62,7 +62,7 @@ p {
 
 /* Title */
 #title .container-fluid {
-  padding: 3% 10% 7%;
+  padding: 3% 15% 7%;
   text-align: left;
 }
 
@@ -71,6 +71,17 @@ p {
   right: 30%;
   transform: rotate(25deg);
   width: 60%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Features */
@@ -152,15 +163,4 @@ p {
 
 .social {
   margin: 20px 10px;
-}
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
 }
